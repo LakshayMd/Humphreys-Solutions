@@ -1,0 +1,55 @@
+\documentclass[11pt, openany]{book}
+
+\usepackage{amsmath,amssymb,tikz,quiver,hyperref,stmaryrd,mathrsfs}
+\usepackage[most]{tcolorbox}
+\usepackage[shortlabels]{enumitem}
+\usepackage[capitalise]{cleveref}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
+
+% change name from "Item" to "Part"
+\crefname{enumi}{part}{parts}
+
+% problem environment
+\newtcbtheorem[auto counter, number within = chapter, crefname = {Problem}{Problems}]{problem}{Problem}{
+    colback = white,
+    colframe = black,
+    label = prob:\thetcbcounter,
+    leftrule = 1mm,
+}{problem}
+
+% solution environment
+\newtcbtheorem[auto counter, number within = chapter, crefname = {Solution}{Solutions}]{solution}{Solution}{
+    colback = white,
+    label = sol:\thetcbcounter,
+}{solution}
+
+% global tcb theme
+\tcbset{
+    enhanced,
+    breakable,
+    theorem style = plain,
+    coltitle = black,
+    fonttitle = \bfseries\sffamily,
+    boxrule = 0pt,
+    sharp corners,
+    parbox = false
+}
+
+% plante's set builder
+\makeatletter
+\newif\ifscaledelims
+\protected\def\setb{\@ifstar{\scaledelimstrue\setbA}{\scaledelimsfalse\setbA}}
+\newcommand\setbA[2][]{%
+    \ifscaledelims \left \fi \{%
+    #2%
+    \if\relax\detokenize{#1}\relax \else
+        \allowbreak\:\ifscaledelims \middle \fi |\nobreak\:%
+        #1%
+    \fi
+    \ifscaledelims \right \fi \}%
+}
+\makeatother
