@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.19)  1 OCT 2022 17:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.19)  2 OCT 2022 16:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,17 +674,33 @@ Chapter 2.
 
  (./ch3.tex
 Chapter 3.
-) [5
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+(d:/Utility/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+ (d:/Utility/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 13.
+ (d:/Utility/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13.
+ (d:/Utility/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Underfull \vbox (badness 2662) has occurred while \output is active []
+
+ [5
 
 
 
 
-]
+]) [6]
 \openout2 = `ch4.aux'.
 
  (./ch4.tex
 Chapter 4.
-) [6
+) [7
 
 
 
@@ -694,7 +710,7 @@ Chapter 4.
 
  (./ch5.tex
 Chapter 5.
-) [7
+) [8
 
 
 
@@ -704,34 +720,25 @@ Chapter 5.
 
  (./ch6.tex
 Chapter 6.
-) [8
+LaTeX Font Info:    Trying to load font information for U+euf on input line 12.
+(d:/Utility/texlive/2021/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) [9
 
 
 
 
-]
+])
+Overfull \hbox (2.30994pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/10.95 10 \OT1/cmr/m/sl/10.95 CHAPTER 6.  COMPLETE REDUCIBILITY OF REPRESENTATIONS
+ []
+
+[10]
 \openout2 = `ch7.aux'.
 
  (./ch7.tex
 Chapter 7.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
-(d:/Utility/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
- (d:/Utility/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 1.
- (d:/Utility/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 1.
- (d:/Utility/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Trying to load font information for U+euf on input line 1.
- (d:/Utility/texlive/2021/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)) [9
+) [11
 
 
 
@@ -741,7 +748,7 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 
  (./ch8.tex
 Chapter 8.
-) [10
+) [12
 
 
 
@@ -751,18 +758,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A3E1B5E55D89190565749D196FC1F02E;1506.
  ) 
 Here is how much of TeX's memory you used:
- 30363 strings out of 478599
- 619555 string characters out of 5854093
+ 30408 strings out of 478599
+ 620070 string characters out of 5854093
  949197 words of memory out of 5000000
- 47597 multiletter control sequences out of 15000+600000
- 411752 words of font info for 60 fonts, out of 8000000 for 9000
+ 47626 multiletter control sequences out of 15000+600000
+ 417914 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,7n,111p,506b,966s stack positions out of 5000i,500n,10000p,200000b,80000s
-<d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb>
-Output written on main.pdf (10 pages, 82405 bytes).
+ 107i,9n,111p,866b,966s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (12 pages, 136635 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 98 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

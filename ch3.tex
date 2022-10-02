@@ -9,7 +9,13 @@
 \end{solution}
 
 \begin{solution}{}{3.3}
-    
+    The relations
+    \begin{align*}
+        [x,y] &= h \\
+        [h,x] &= 2x \\
+        [h,y] &= -2y
+    \end{align*}
+    hold equally well in characteristic 2, but the last 2 brackets are then 0. Thus $ L^{1} = [L, L] = \mathbb{C}h $, and $ L^{2} = [L^{1}, L] = [ \mathbb{C}h, L] = 0 $, since $ [h, -] $ is uniformly 0.
 \end{solution}
 
 \begin{solution}{}{3.4}
@@ -25,7 +31,12 @@
 \end{solution}
 
 \begin{solution}{}{3.7}
-    
+    $ K \subset N_{L}(K) $ follows from $ K $ being closed under the bracket operation. Let $ n $ be the unique non-negative integer such that $ L^{n} \subsetneq K $ but $ L^{n+1} \subset K $, which exists because $ K $ is proper and $ L $ is nilpotent. Let $ z\in L^{n} \setminus K $. I claim that $ z\in N_{L}(K) $. Indeed,
+    \begin{align*}
+        zK \subset [L^{n}, K]
+        \subset [L^{n}, L] = L^{n+1}
+        \subset K
+    \end{align*}
 \end{solution}
 
 \begin{solution}{}{3.8}
