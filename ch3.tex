@@ -8,7 +8,7 @@
 
 \end{solution}
 
-\begin{solution}{}{3.3}
+\begin{solution}{Lakshay}{3.3}
     The relations
     \begin{align*}
         [x,y] &= h \\
@@ -30,7 +30,7 @@
 
 \end{solution}
 
-\begin{solution}{}{3.7}
+\begin{solution}{Lakshay}{3.7}
     $ K \subset N_{L}(K) $ follows from $ K $ being closed under the bracket operation. Let $ n $ be the unique non-negative integer such that $ L^{n} \subsetneq K $ but $ L^{n+1} \subset K $, which exists because $ K $ is proper and $ L $ is nilpotent. Let $ z\in L^{n} \setminus K $. I claim that $ z\in N_{L}(K) $. Indeed,
     \begin{align*}
         zK \subset [L^{n}, K]
@@ -43,8 +43,12 @@
 
 \end{solution}
 
-\begin{solution}{}{3.9}
-    
+\begin{solution}{Lakshay}{3.9}
+    This is only true if $ L \neq 0 $, so assume that that is the case.
+
+    Since $ L $ is nilpotent, it has an ideal $ K $ of codimension 1 by \cref{sol:3.7}, so there is some $ x\in L $ such that $ L = K \oplus \mathbb{F}x $ as vector spaces. There is some non zero $ L^{k} $ with $ L^{k+1} = 0 $, thus $ L^{k} \subset C_{L}(L) \subset C_{L}(K) \neq 0 $. As the sequence $ L^{i} $ decreases to 0, there is some largest $ n $ such that $ C_{L}(K) \subset L^{n} $. Let $ z\in C_{L}(K) \setminus L^{n+1} $. Define $ \delta: L\to L $ by $ K \mapsto 0 $, $ x \mapsto z $, and extending linearly.
+
+    Then $ \delta $ is linear by construction. It is a derivation because for any pair $ k_{1}+c_{1}x $ and $ k_{2} + c_{2}x $ with $ k_{i} \in K $ and $ c_{i} \in \mathbb{C} $, both sides of the Leibniz rule equation become 0. It needs to be shown that it is not an inner derivation. Suppose $ \delta = \operatorname{ad}y $ for some $ y\in L $. As $ \delta(K) = 0 $, $ y \in C_{L}(K) $. As $ \delta(x) = [y, x] = z $ and $ y\in L^{n} $, $ z\in L^{n+1} $, which contradicts the choice of $ z $.
 \end{solution}
 
 \begin{solution}{}{3.10}

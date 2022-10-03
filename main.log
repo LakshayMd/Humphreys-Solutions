@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.19)  2 OCT 2022 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.19)  3 OCT 2022 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -580,8 +580,7 @@ Package cleveref Info: always capitalise cross-reference names on input line 782
 Package cleveref Info: always capitalise cross-reference names on input line 7852.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 11.
-\c@tcb@cnt@problem=\count322
-\c@tcb@cnt@solution=\count323
+\c@tcb@cnt@solution=\count322
 ) (./main.aux (./ch1.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux) (./ch5.aux) (./ch6.aux) (./ch7.aux) (./ch8.aux))
 \openout1 = `main.aux'.
 
@@ -605,16 +604,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
  (d:/Utility/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
+\scratchcounter=\count323
 \scratchdimen=\dimen279
 \scratchbox=\box80
-\nofMPsegments=\count325
-\nofMParguments=\count326
+\nofMPsegments=\count324
+\nofMParguments=\count325
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count327
+\MPscratchCnt=\count326
 \MPscratchDim=\dimen280
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
 \everyMPtoPDFconversion=\toks39
 ) (d:/Utility/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -636,7 +635,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (d:/Utility/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count330
+\c@section@level=\count329
 )
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
@@ -645,7 +644,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-\c@lstlisting=\count331
+\c@lstlisting=\count330
  (d:/Utility/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks40
@@ -688,7 +687,7 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13.
  (d:/Utility/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Underfull \vbox (badness 2662) has occurred while \output is active []
+Underfull \vbox (badness 1038) has occurred while \output is active []
 
  [5
 
@@ -723,7 +722,10 @@ Chapter 6.
 LaTeX Font Info:    Trying to load font information for U+euf on input line 12.
 (d:/Utility/texlive/2021/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [9
+)
+Underfull \vbox (badness 1062) has occurred while \output is active []
+
+ [9
 
 
 
@@ -758,18 +760,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A3E1B5E55D89190565749D196FC1F02E;1506.
  ) 
 Here is how much of TeX's memory you used:
- 30408 strings out of 478599
- 620070 string characters out of 5854093
+ 30346 strings out of 478599
+ 618634 string characters out of 5854093
  949197 words of memory out of 5000000
- 47626 multiletter control sequences out of 15000+600000
+ 47564 multiletter control sequences out of 15000+600000
  417914 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,9n,111p,866b,966s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 107i,9n,111p,866b,964s stack positions out of 5000i,500n,10000p,200000b,80000s
 <d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><d:/Utility/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (12 pages, 136635 bytes).
+Output written on main.pdf (12 pages, 143026 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
+ 291 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
  98 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

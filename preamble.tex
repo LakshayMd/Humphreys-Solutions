@@ -10,21 +10,24 @@
     urlcolor=blue
 }
 
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5em}
+
 % change name from "Item" to "Part"
 \crefname{enumi}{part}{parts}
 
 % problem environment
-\newtcbtheorem[auto counter, number within = chapter, crefname = {Problem}{Problems}]{problem}{Problem}{
-    colback = white,
-    colframe = black,
-    label = prob:\thetcbcounter,
-    leftrule = 1mm,
-}{problem}
+% \newtcbtheorem[auto counter, number within = chapter, crefname = {Problem}{Problems}]{problem}{Problem}{
+%     colback = white,
+%     colframe = black,
+%     label = prob:\thetcbcounter,
+%     leftrule = 1mm,
+% }{problem}
 
 % solution environment
-\newtcbtheorem[auto counter, number within = chapter, crefname = {Solution}{Solutions}]{solution}{Solution}{
-    colback = white,
+\newtcbtheorem[auto counter, number within = chapter, crefname = {Problem}{Problems}]{solution}{Solution}{
     label = sol:\thetcbcounter,
+    colback = white,
 }{solution}
 
 % global tcb theme
@@ -36,7 +39,7 @@
     fonttitle = \bfseries\sffamily,
     boxrule = 0pt,
     sharp corners,
-    parbox = false
+    parbox = false,
 }
 
 % plante's set builder
